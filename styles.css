@@ -26,10 +26,10 @@ h1 {
   margin-bottom: 30px;
 }
 .input-container {
-  border: 1px solid red;
   padding: 15px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 #input-field {
   width: 70%;
@@ -52,4 +52,19 @@ h1 {
 }
 #input-button:hover {
   background-color: #3700b3;
+}
+.hidden {
+  display: none;
+}
+
+#output-container {
+  /* border: 1px solid red; */
+  background-color: #1a1919;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+#output-container p {
+  font-size: large;
+  margin-bottom: 12px;
 }
