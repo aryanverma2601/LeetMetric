@@ -29,6 +29,8 @@
 ---
 
 ## 📁 Project Structure
+
+```plaintext
 leetmetric/
 │
 ├── index.html        # Main HTML page
