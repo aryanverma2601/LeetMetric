@@ -14,12 +14,16 @@
         <input id="input-button" type="button" value="Search" />
       </div>
 
-      <div id="output-container">
-        <p>Total Ques : <span id="total-ques">256</span></p>
-        <p>Easy : <span id="easy-ques">256</span></p>
-        <p>Medium : <span id="medium-ques">256</span></p>
-        <p>Hard : <span id="hard-ques">256</span></p>
+      <div id="output-container" class="hidden">
+        <div class="output">
+          <p id="username"></p>
+          <p>Total Ques : <span id="total-ques"></span></p>
+          <p>Easy Solved : <span id="easy-ques"></span></p>
+          <p>Medium Solved : <span id="medium-ques"></span></p>
+          <p>Hard Solved : <span id="hard-ques"></span></p>
+        </div>
       </div>
+      <p class="hidden" id="error-message">Username Not Found</p>
     </div>
 
     <script src="./script.js"></script>
